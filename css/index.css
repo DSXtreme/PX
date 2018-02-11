@@ -511,20 +511,19 @@ h4 {
         z-index: 0;
         margin-top: 49px;
     }  
-    .quote blockquote 
-    {
-        position: sticky;
-        font-size: 24px;
-        text-align: inherit;
-        width: 100%;
-        margin: 0;
-        left: 4px;
-        padding-top: 108px;
-        top: 64px;
-        z-index: 0;
-        margin-top: 49px;
+    .quote blockquote {
+	position: sticky;
+	font-size: 24px;
+	text-align: inherit;
+	width: 1px;
+	margin: 95%;
+	left: 4px;
+	padding-top: 108px;
+	top: 64px;
+	z-index: 0;
+	margin-top: 49px;
     }
-    
+
     .gal_heading {
         position: sticky;
         top: 61px;

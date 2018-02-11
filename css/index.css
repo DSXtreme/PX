@@ -499,31 +499,19 @@ h4 {
         width: 100%;
         max-height: 6774px;
 	}
-
-  .quote blockquote {
-        /* position: sticky; */
-        font-size: 20px;
-        text-align: inherit;
-        width: 98%;
-        margin: 0;
-        left: 4px;
-        padding-top: 108px;
-        top: 64px;
-        z-index: 0;
-        margin-top: 49px;
-    }  
+ 
     .quote blockquote {
 	position: sticky;
 	font-size: 24px;
 	text-align: inherit;
-	width: 1px;
-	margin: 95%;
+	width: 94%;
+	margin: 0;
 	left: 4px;
 	padding-top: 108px;
 	top: 64px;
 	z-index: 0;
 	margin-top: 49px;
-    }
+     }
 
     .gal_heading {
         position: sticky;

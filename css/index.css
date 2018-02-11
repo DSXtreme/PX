@@ -1,0 +1,574 @@
+*
+{
+    font-family:sans-serif ;
+    transition: all .44s cubic-bezier(0,.9,.39,1.66);
+}
+
+@keyframes stretch
+{
+    0% {height: 50px;}
+    10% {}
+    20% {}
+    30% {}
+    40% {}
+    50% {height:38px;}
+    55% {}
+    60% {}
+    70% {}
+    80% {}
+    90% {}
+    100% {height: 50px;}
+}
+
+@keyframes px
+{
+    0% {text-shadow: 3px 1px 7px #8c8282;}
+    10% {}
+    20% {}
+    30% {}
+    40% {}
+    50% {text-shadow: 3px 1px 42px #8c8282;}
+    55% {}
+    60% {}
+    70% {}
+    80% {}
+    90% {}
+    100% {text-shadow: 3px 1px 7px #8c8282;}
+}
+@font-face
+{
+    font-family: "px_header";
+    src: url("../fonts/Russo_One/RussoOne-Regular.ttf");
+    font-weight: 200;
+        
+}
+
+@font-face
+{
+    font-family: "myg";
+    src: url("../fonts/Titillium_Web/TitilliumWeb-Regular.ttf");
+        
+}
+
+@font-face {
+    font-family: 'my_font';
+    src: url('../fonts/hellodenverdisplaybold_v1.6.eot');
+    src: url('../fonts/hellodenverdisplaybold_v1.6.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hellodenverdisplaybold_v1.6.woff') format('woff'),
+         url('../fonts/hellodenverdisplaybold_v1.6.ttf') format('truetype'),
+         url('../fonts/hellodenverdisplaybold_v1.6.svg#HELLODENVERDISPLAYBOLDBoldRg') format('svg');
+    font-weight:12px;
+    font-style:checked;
+}
+
+@font-face
+{
+    font-family: 'font2';
+    src: url('../fonts/Titillium_Web/TitilliumWeb-Light.ttf');        
+}
+
+
+
+body
+{
+    margin: 0;
+    background: #ececec;
+    overflow-y: visible;
+    position: relative;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.menue
+{
+	position: fixed;
+	top: 4px;
+	z-index: 5;
+	float: right;
+	width: 100%;
+}
+
+.contact {
+	position: sticky;
+	top: 59px;
+	background-image: url(../img/backgroud/762632-camera-wallpaper.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 60% 17px;
+	background-size: cover;
+	color: white;
+	height: 523px;
+	margin-top: 0;
+	z-index: 4;
+}
+
+.gardient {
+	position: absolute;
+	background: linear-gradient(to right,black 34%,#fff0 62%);
+	width: 100%;
+	height: 100%;
+}
+
+.logo_discord {
+	height: px;
+	width: 97px;
+	position: absolute;
+	top: -43px;
+	left: 159px;
+}
+
+.discord_link {
+	width: 250px;
+	border: 1px solid;
+	font-size: 31px;
+	text-align: center;
+	position: absolute;
+	top: 32px;
+	left: 84px;
+}
+
+.conection
+{
+	position: relative;
+	top: 211px;
+}
+
+.cont_header {
+	background: black;
+	color: white;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	position: sticky;
+	top: 61px;
+	height: 36px;
+	font-size: 32px;
+	/* padding: 4px; */
+	font-family: "myg";
+	padding: 1px 0px 15px 0px;
+	border-top: 3px solid red;
+}
+
+.abt_raper {
+	padding: 2%;
+	background: bottom;
+	background: black;
+	width: 96%;
+	
+}
+.about {
+	z-index: 12;
+	color: white;
+	background: black;
+	position: relative;
+	font-size: 30px;  
+}
+
+.about .abt_inner {
+	margin: 0;
+	font-family: font2;
+	padding: 7% 0% 7.1% 1%;
+}
+
+.abt_header {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	color: white;
+	position: relative;
+	top: -238;
+	z-index: 4;
+	background: black;
+	width: 100%;
+	text-align: center;
+	font-size: 31px;
+	border-top: 3px solid red;
+}
+
+.in img {
+	height: 133px;
+	width: 189px;
+	position: sticky;
+	top: 217px;
+}
+
+.quote {
+	width: 100%;
+	background: #000c;
+	position: sticky;
+	top: 64px;
+	min-height: calc(100vh - 62px);
+	margin-top: 58px;
+}
+
+img
+{
+    display: block;
+}
+
+.look {
+	width: 3px;
+	background: black;
+	
+	position: fixed;
+	top: 512px;
+	height: 38px;
+	float: right;
+	right: 18px;
+    animation-name: stretch;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+.contener {
+	position: relative;
+	max-height: 1697px;
+	width: 100%;
+	background: rgb(14, 13, 13);
+	overflow: hidden;
+}
+
+
+#mwatch
+{
+    transform: rotate(180deg);
+}
+
+.px {
+	font-family: my_font;
+	position: fixed;
+	width: 100%;
+	font-size: 487px;
+	text-align: center;
+	top: -338px;
+	color: black;
+	margin: 0;
+	top: 64px;
+	text-shadow: 3px 1px 7px #8c8282;
+    animation-name: px;
+    animation-duration: 3s;
+}
+
+.px .p1
+{
+	margin: 0;
+	top: 503px;
+	position: relative;
+	right: 123px;
+}
+
+.tr
+{
+    height: 600px;
+}
+
+.quote blockquote {
+	width: 93%;
+	position: sticky;
+	overflow: hidden;
+	font-size: 36px;
+	font-family: font2;
+	color: white;
+	right: -89px;
+	text-align: justify;
+	margin: 0;
+	left: 23px;
+	margin-top: 69px;
+	padding: 14% 9px;
+}
+
+.gallery 
+{
+	position: relative;
+	margin: 5px;
+	float: left;
+	width: 31%;
+	left: 2.2%;
+	transition: box-shadow .33s;
+	transition-timing-function: ease-in-out;
+	overflow: hidden;
+}
+
+.gallery:hover
+{
+    box-shadow: 0px 1px 12px 1px #0bfff6;
+    z-index: 1;
+}
+
+.gallery:hover img
+{
+    transform: scale(1.15);  
+}
+
+.gal_heading {
+	position: sticky;
+	top: 61px;
+	color: white;
+	background: black;
+	width: 100%;
+	text-align: center;
+	z-index: 4;
+	font-size: 29px;
+	border-top: 3px solid red;
+    font-family: "myg";
+}
+
+.mygel_cont {
+	/* background: #963535; */
+	z-index: 3;
+	height: 300px;
+	position: absolute;
+	top: 1778px;
+	width: 100%;
+}
+
+.mygal {
+	font-family: myg;
+	margin-bottom: -1199px;
+	width: 100%;
+	text-align: center;
+	font-size: 36px;
+	margin-top: 653px;
+	color: white;
+	position: sticky;
+	top: 64px !important;
+	background: rgb(14, 13, 13);
+	z-index: 3;
+}
+
+li
+{
+    list-style: none;
+    float: right;
+    margin-right: 0.5em;
+    margin-top: 12px;
+}
+
+li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+	position: fixed;
+	background: rgb(23, 22, 22);
+	width: 100%;
+	height: 62px;
+	top: -1px;
+	margin: 0px;
+	overflow: hidden;
+	border-bottom: 3px solid #ff0808;
+	z-index: 5;
+	text-align: center;
+}  
+
+h4 {
+	/* position: absolute; */
+	color: white;
+	top: 65px;
+	left: 20px;
+	font-size: 38px;
+	margin: 0px;
+	font-family: px_header;
+	padding-top: 12px;
+}
+.about
+{
+	z-index: 12;
+	color: white;
+	background: black;
+	position: relative;
+}
+
+@media(max-width: 00px)
+{        
+     blockquote {
+        position: sticky;
+        font-size: 24px;
+        text-align: inherit;
+        width: 94%;
+        margin: 0;
+        left: 4px;
+        padding-top: 53px;
+        top: 64px;
+        z-index: 0;
+        margin-top: 49px;
+    }
+    .gallery
+    {
+        float: none;
+        width: 97%; 
+        position: relative;
+        left: 2px;
+    }
+    
+   .contener 
+    {
+        position: relative;
+        width: 100%;
+        max-height: 6774px;
+	}
+
+  .quote blockquote {
+	/* position: sticky; */
+	font-size: 24px;
+	text-align: inherit;
+	width: 98%;
+	margin: 0;
+	left: 4px;
+	padding-top: 108px;
+	top: 64px;
+	z-index: 0;
+	margin-top: 49px;
+}  .quote blockquote 
+    {
+        position: sticky;
+        font-size: 24px;
+        text-align: inherit;
+        width: 100%;
+        margin: 0;
+        left: 4px;
+        padding-top: 108px;
+        top: 64px;
+        z-index: 0;
+        margin-top: 49px;
+    }
+    
+    .gal_heading {
+        position: sticky;
+        top: 61px;
+        color: white;
+        background: black;
+        width: 100%;
+        text-align: center;
+        z-index: 4;
+        font-size: 29px;
+        border-top: 3px solid red;
+        font-family: "myg";
+        margin-top: 61px;
+    }
+    .contact {
+	position: sticky;
+	top: 59px;
+	background-image: url(../img/backgroud/762632-camera-wallpaper.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 60% 17px;
+	background-size: cover;
+	color: white;
+	height: 588px;
+	margin-top: 0;
+	z-index: 4;
+    }
+}
+    
+@media(max-width: 900px)
+{    
+   .px {
+        font-size: 305px;
+        position: fixed;
+        top: 133px;
+    }
+     blockquote {
+        position: sticky;
+        font-size: 24px;
+        text-align: inherit;
+        width: 94%;
+        margin: 0;
+        left: 4px;
+        padding-top: 53px;
+        top: 64px;
+        z-index: 0;
+        margin-top: 49px;
+    }
+    .gallery
+    {
+        float: none;
+        width: 97%; 
+        position: relative;
+        left: 2px;
+    }
+    
+   .contener 
+    {
+        position: relative;
+        width: 100%;
+        max-height: 6774px;
+	}
+
+  .quote blockquote {
+        /* position: sticky; */
+        font-size: 20px;
+        text-align: inherit;
+        width: 98%;
+        margin: 0;
+        left: 4px;
+        padding-top: 108px;
+        top: 64px;
+        z-index: 0;
+        margin-top: 49px;
+    }  
+    .quote blockquote 
+    {
+        position: sticky;
+        font-size: 24px;
+        text-align: inherit;
+        width: 100%;
+        margin: 0;
+        left: 4px;
+        padding-top: 108px;
+        top: 64px;
+        z-index: 0;
+        margin-top: 49px;
+    }
+    
+    .gal_heading {
+        position: sticky;
+        top: 61px;
+        color: white;
+        background: black;
+        width: 100%;
+        text-align: center;
+        z-index: 4;
+        font-size: 29px;
+        border-top: 3px solid red;
+        font-family: "myg";
+        margin-top: 61px;
+    }
+    .contact {
+	position: sticky;
+	top: 59px;
+	background-image: url(../img/backgroud/762632-camera-wallpaper.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 60% 17px;
+	background-size: cover;
+	color: white;
+	height: 588px;
+	margin-top: 0;
+	z-index: 4;
+    }
+    .about {
+        z-index: 4;
+        color: white;
+        background: black;
+        position: relative;
+    }
+       .abt_header {
+        margin: 0;
+        padding: 0px 0px 0px 0px;
+        color: white;
+        position: sticky;
+        top: 59px;
+        z-index: 13;
+        background: black;
+        width: 100%;
+        text-align: center;
+        font-size: 31px;
+        border-top: 3px solid red;
+    }
+    
+}

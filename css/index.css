@@ -467,7 +467,12 @@ h4 {
 }
     
 @media(max-width: 900px)
-{    
+{
+   .conection {
+	position: relative;
+	top: 211px;
+	right: 18px;
+    }
    .px {
         font-size: 305px;
         position: fixed;

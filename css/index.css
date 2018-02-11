@@ -383,7 +383,7 @@ h4 {
 	position: relative;
 }
 
-@media(max-width: 00px)
+@media(max-width: 400px)
 {        
      blockquote {
         position: sticky;
@@ -413,17 +413,18 @@ h4 {
 	}
 
   .quote blockquote {
-	/* position: sticky; */
+	position: sticky;
 	font-size: 24px;
 	text-align: inherit;
-	width: 98%;
+	width: 93%;
 	margin: 0;
 	left: 4px;
 	padding-top: 108px;
 	top: 64px;
 	z-index: 0;
 	margin-top: 49px;
-}  .quote blockquote 
+	}
+  .quote blockquote 
     {
         position: sticky;
         font-size: 24px;
